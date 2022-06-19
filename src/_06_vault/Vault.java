@@ -9,7 +9,10 @@ import java.util.Random;
  */
 public class Vault {
 	private int secret = new Random().nextInt(1000001);
-
+	public Vault()
+	{
+		System.out.println("Vault initiated");
+	}
 	/**
 	 * Tries to access the vault
 	 * 
@@ -18,5 +21,9 @@ public class Vault {
 	 */
 	public boolean tryCode(int guess) {
 		return guess == secret;
+	}
+	public void codeReturn()
+	{
+		System.out.println("The Code was:" + secret);
 	}
 }

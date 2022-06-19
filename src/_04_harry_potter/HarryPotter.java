@@ -15,7 +15,7 @@ package _04_harry_potter;
 		*/
 
 public class HarryPotter {
-
+	
 	private boolean cloakOn;
 
 	HarryPotter() {
