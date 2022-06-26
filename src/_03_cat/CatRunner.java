@@ -1,17 +1,13 @@
 package _03_cat;
 
-import Cat;
-
-
 public class CatRunner {
 	
     public static void main(String[] args)
     {
-    Cat("kitty"); 
-    meow();
-    
-    
-    
+    	Cat cat = new Cat("cat");
+    	cat.meow();
+    	cat.printName();
+    	cat.kill();
     }
 
 	
